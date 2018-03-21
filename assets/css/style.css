@@ -1,0 +1,71 @@
+
+.container {
+  background-color: lightgray;
+  
+  background-image: url("../images/background.jpg");
+  background-repeat: repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.title {
+  margin-left:5px;
+  width: 350px;
+  background-color: orange;
+  color: whitesmoke;
+  padding: 10px;
+
+}
+
+#instructions {
+  margin-left:5px;
+  width: 400px;
+  background-color: palegoldenrod;
+  color: green;
+  padding: 13px;
+
+}
+
+#Goal-Section{
+  margin-left:5px;
+  background-color: lightgreen;
+  font-size:20px;
+  height: 100px;
+  width: 160px;
+
+}
+
+#Wins-Losses-Section{
+  width: 160px;
+  background-color: lightblue;
+  font-size:20px;
+  height: 100px;
+  text-align:left;
+  
+
+}
+
+.button{
+  padding: 10px;
+}
+
+button img{
+  height:80x;
+  width:80px;
+
+}
+
+
+#Score-Section{
+  margin-left:5px;
+  background-color: teal;
+  width: 200px;
+  color:white;
+  font-size: 10px;
+  padding:10px;
+}
+
+#score{
+  margin-left:5px;
+  font-size:15px;
+}
