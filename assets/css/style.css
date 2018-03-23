@@ -36,6 +36,7 @@
 }
 
 #Wins-Losses-Section{
+  float:right;
   width: 160px;
   background-color: lightblue;
   font-size:20px;
