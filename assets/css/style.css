@@ -1,72 +1,69 @@
-
 .container {
   background-color: lightgray;
-  
-  background-image: url("../images/background.jpg");
+  background-image: url("https://previews.123rf.com/images/elvil/elvil1303/elvil130300062/18684128-bright-wedding-vintage-wallpaper.jpg");
   background-repeat: repeat;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.title {
-  margin-left:5px;
-  width: 350px;
-  background-color: orange;
-  color: whitesmoke;
+#header {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  background-color: lightskyblue;
   padding: 10px;
+}
 
+h1 {
+  color: white;
 }
 
 #instructions {
-  margin-left:5px;
-  width: 400px;
-  background-color: palegoldenrod;
-  color: green;
+  margin: auto;
+  margin-top: 10px;
+  width: 800px;
+  background-color: white;
   padding: 13px;
-
+  text-align: center;
 }
 
-#Goal-Section{
-  margin-left:5px;
-  background-color: lightgreen;
-  font-size:20px;
+.game-info {
+  width: 25%;
+  margin: auto;
+  margin-top: 15px;
+  background-color: coral;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.crystals {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+
+button {
+  border: coral 5px solid;
+  padding: 5px;
+}
+
+img {
   height: 100px;
-  width: 160px;
-
+  width: auto;
 }
 
-#Wins-Losses-Section{
-  float:right;
-  width: 160px;
-  background-color: lightblue;
-  font-size:20px;
-  height: 100px;
-  text-align:left;
-  
-
-}
-
-.button{
-  padding: 10px;
-}
-
-button img{
-  height:80x;
-  width:80px;
-
-}
-
-
-#Score-Section{
-  margin-left:5px;
-  background-color: teal;
+#Score-Section {
+  margin: auto;
+  background-color: coral;
   width: 200px;
-  color:white;
+  color: white;
   font-size: 10px;
-  padding:10px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-#score{
-  margin-left:5px;
-  font-size:15px;
+#score {
+  margin-left: 5px;
+  font-size: 15px;
 }
