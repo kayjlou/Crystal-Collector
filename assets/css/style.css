@@ -52,18 +52,3 @@ img {
   height: 100px;
   width: auto;
 }
-
-#Score-Section {
-  margin: auto;
-  background-color: coral;
-  width: 200px;
-  color: white;
-  font-size: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-#score {
-  margin-left: 5px;
-  font-size: 15px;
-}
