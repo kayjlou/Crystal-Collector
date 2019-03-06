@@ -24,6 +24,7 @@ h1 {
   background-color: white;
   padding: 13px;
   text-align: center;
+  border: coral 4px solid;
 }
 
 .game-info {
@@ -34,6 +35,7 @@ h1 {
   padding: 20px;
   text-align: center;
   color: white;
+  border: white 4px solid;
 }
 
 .crystals {
