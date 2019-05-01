@@ -1,6 +1,6 @@
 # Crystal Collecter
 
-Used jquery to create an interactive game in which the user adds up the amount of the crystals to hit the target. Number values of the crystals are generated at random.
+Interactive game using jquery, CSS and Html in which the user clicks the crystals to add up the values and hit the target goal. Number values of the crystals are generated at random.
 
-Link to page:
+## Deployed Link
 https://kayjlou.github.io/Crystal-Collector/
