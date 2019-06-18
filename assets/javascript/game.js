@@ -2,7 +2,7 @@ src = "https://code.jquery.com/jquery-3.3.1.min.js";
 integrity = "sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=";
 crossorigin = "anonymous";
 
-$(document).ready(function() {
+$(document).ready(function () {
   //Select random goal number between 19-120
   var goal = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
 
@@ -39,7 +39,7 @@ $(document).ready(function() {
     yellow = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
     green = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
     console.log("New goal is: " + goal);
-    $("#Goal-Section").text(goal);
+    $("#Goal").text(goal);
     $("#Wins").text(wins);
     $("#Losses").text(losses);
     $("#score").text(score);
@@ -63,7 +63,7 @@ $(document).ready(function() {
 
   //Click on Gem functions
   //Red Gem
-  $("#red").click(function() {
+  $("#red").click(function () {
     console.log("red value: " + red);
     score = score + red;
     $("#score").text(score);
@@ -71,7 +71,7 @@ $(document).ready(function() {
   });
 
   //Blue Gem
-  $("#blue").click(function() {
+  $("#blue").click(function () {
     console.log("blue value: " + blue);
     score = score + blue;
     $("#score").text(score);
@@ -79,7 +79,7 @@ $(document).ready(function() {
   });
 
   //Yellow
-  $("#yellow").click(function() {
+  $("#yellow").click(function () {
     console.log("yellow value: " + yellow);
     score = score + yellow;
     $("#score").text(score);
@@ -87,7 +87,7 @@ $(document).ready(function() {
   });
 
   //Green
-  $("#green").click(function() {
+  $("#green").click(function () {
     console.log("green value: " + green);
     score = score + green;
     $("#score").text(score);
